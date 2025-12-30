@@ -177,3 +177,6 @@ By completing Part 02, you've built a production-ready RAG pipeline. This archit
 If this project helped you, please give it a ⭐ and subscribe to [My YouTube Channel](http://www.youtube.com/@julienmuke/videos)!
 
 
+<a href="http://www.youtube.com/@julienmuke/videos" target="_blank">
+      <img src="https://github.com/user-attachments/assets/a864c284-5647-4f4d-af70-386d7e0efadc" alt="Project Banner">
+</a>
