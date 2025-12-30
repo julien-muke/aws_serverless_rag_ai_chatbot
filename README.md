@@ -27,4 +27,30 @@ like these step-by-step in a beginner-friendly manner!
 
 ## <a name="introduction">🤖 Introduction</a>
 
-This project takes my earlier [Serverless AI Chatbot with Amazon Bedrock](https://youtu.be/63McfqGULvA) to the next level by implementing RAG (Retrieval-Augmented Generation), the same approach real companies use to build accurate, knowledge-driven, enterprise AI assistants.
+Welcome to [Part 02](https://youtu.be/63McfqGULvA) of the Serverless AI Chatbot series! In this tutorial, we evolve our basic chatbot into a powerful Enterprise Knowledge Assistant. By implementing Retrieval-Augmented Generation (RAG), we enable the AI to answer questions based on your private documents (PDFs, FAQs, and Policies) with pinpoint accuracy and citations.
+
+👉 See Part 01 (Foundations): [https://youtu.be/63McfqGULvA]
+
+## 🔎 Overview: Why RAG?
+
+In todays tech field, generic AI is "good," but Grounded AI is better. RAG solves the two biggest problems in AI:
+
+1. Hallucinations: The AI only answers based on provided facts.
+
+2. Static Knowledge: You don't need to retrain the model; just update your documents, and the AI "knows" instantly.
+
+## 🛠 Tech Stack
+
+- Amazon Bedrock Knowledge Bases: The orchestration engine.
+
+- Amazon OpenSearch Serverless: Our high-performance Vector Database.
+
+- Anthropic Claude 3 Haiku: The LLM for fast, cost-effective reasoning.
+
+- AWS Lambda: Backend logic using the RetrieveAndGenerate API.
+
+- Amazon S3: Document storage and static web hosting.
+
+
+
+
