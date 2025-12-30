@@ -1,14 +1,14 @@
-# ![aws](https://github.com/julien-muke/Search-Engine-Website-using-AWS/assets/110755734/01cd6124-8014-4baa-a5fe-bd227844d263) AI-Powered CI/CD Pipeline for React Apps on AWS
+# ![aws](https://github.com/julien-muke/Search-Engine-Website-using-AWS/assets/110755734/01cd6124-8014-4baa-a5fe-bd227844d263) Serverless RAG AI Chatbot on AWS (Amazon Bedrock) 🧠
 
 <div align="center">
 
   <br />
     <a href="https://youtu.be/0A46RQiLCBE" target="_blank">
-      <img src="https://github.com/user-attachments/assets/c07f2ed3-a000-459c-ab2a-a58565470c9a" alt="Project Banner">
+      <img src="https://github.com/user-attachments/assets/b8f61782-fad7-48df-9966-7f0f80274fbc" alt="Project Banner">
     </a>
   <br />
 
-<h3 align="center">Build an AI-Powered CI/CD Pipeline on AWS using Amazon Inspector, Amazon Q and Amazon DevOps Guru.</h3>
+<h3 align="center">Serverless RAG AI Chatbot on AWS using Amazon Bedrock</h3>
 
    <div align="center">
      Build this hands-on demo step by step with my detailed tutorial on <a href="http://www.youtube.com/@julienmuke/videos" target="_blank"><b>Julien Muke</b></a> YouTube. Feel free to subscribe 🔔!
