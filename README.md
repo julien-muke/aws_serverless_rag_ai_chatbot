@@ -51,6 +51,15 @@ In todays tech field, generic AI is "good," but Grounded AI is better. RAG solve
 
 - Amazon S3: Document storage and static web hosting.
 
+## 🏗 Architecture Diagram
 
+1. Admin uploads a PDF to the S3 Source Bucket.
 
+2. Bedrock Knowledge Base syncs the data, converts it to embeddings (Titan v2), and stores it in OpenSearch Serverless.
+
+3. User asks a question via the S3-hosted UI.
+
+4. Lambda triggers the RetrieveAndGenerate API.
+
+5. Bedrock finds the relevant context, feeds it to Claude 3, and returns a grounded answer.
 
