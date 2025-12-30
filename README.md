@@ -27,4 +27,4 @@ like these step-by-step in a beginner-friendly manner!
 
 ## <a name="introduction">🤖 Introduction</a>
 
-This project takes my earlier (Serverless AI Chatbot with Amazon Bedrock)[https://youtu.be/63McfqGULvA] to the next level by implementing RAG (Retrieval-Augmented Generation), the same approach real companies use to build accurate, knowledge-driven, enterprise AI assistants.
+This project takes my earlier [Serverless AI Chatbot with Amazon Bedrock](https://youtu.be/63McfqGULvA) to the next level by implementing RAG (Retrieval-Augmented Generation), the same approach real companies use to build accurate, knowledge-driven, enterprise AI assistants.
