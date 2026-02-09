@@ -3,7 +3,7 @@
 <div align="center">
 
   <br />
-    <a href="https://youtu.be/0A46RQiLCBE" target="_blank">
+    <a href="#" target="_blank">
       <img src="https://github.com/user-attachments/assets/fc83d541-0fff-4d40-bea5-82340397a251" alt="Project Banner">
     </a>
   <br />
@@ -15,19 +15,9 @@
     </div>
 </div>
 
-## 🚨 Tutorial
-
-This repository contains the steps corresponding to an in-depth tutorial available on my YouTube
-channel, <a href="http://www.youtube.com/@julienmuke/videos" target="_blank"><b>Julien Muke</b></a>.
-
-If you prefer visual learning, this is the perfect resource for you. Follow my tutorial to learn how to build projects
-like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/0A46RQiLCBE" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
-
 ## <a name="introduction">🤖 Introduction</a>
 
-Welcome to [Part 02](https://youtu.be/63McfqGULvA) of the Serverless AI Chatbot series! In this tutorial, we evolve our basic chatbot into a powerful Enterprise Knowledge Assistant. By implementing Retrieval-Augmented Generation (RAG), we enable the AI to answer questions based on your private documents (PDFs, FAQs, and Policies) with pinpoint accuracy and citations.
+Welcome to part 02 of the Serverless AI Chatbot series! In this tutorial, we evolve our basic chatbot into a powerful Enterprise Knowledge Assistant. By implementing Retrieval-Augmented Generation (RAG), we enable the AI to answer questions based on your private documents (PDFs, FAQs, and Policies) with pinpoint accuracy and citations.
 
 👉 See Part 01 (Foundations): [https://youtu.be/63McfqGULvA]
 
@@ -160,7 +150,7 @@ You can use the exact same Frontend (HTML/CSS) from [Part 01](https://youtu.be/6
 
 ## 🗑️ Clean Up
 
-1. To avoid unexpected AWS charges:
+To avoid unexpected AWS charges:
 
 2. Delete the OpenSearch Serverless Collection (This is the most expensive part).
 
