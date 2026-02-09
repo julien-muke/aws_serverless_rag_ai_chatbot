@@ -57,25 +57,31 @@ In todays tech field, generic AI is "good," but Grounded AI is better. RAG solve
 
 1. Create a new S3 bucket named `your-name-kb-source`
 
-2. Upload a sample document (e.g., Company_Policy_2025.pdf).
+2. Upload a sample document (e.g., Company_Policy_2025.pdf, Product_docs.pdf, HR_manuals.pdf, IT_troubleshooting_guides.pdf).
 
 3. Note: Ensure this bucket is in the same region as your Bedrock Knowledge Base.
 
 ## ➡️ Step 2: Setup Bedrock Knowledge Base
 
-1. Go to Amazon Bedrock > Knowledge Bases > Create Knowledge Base.
+1. Go to Amazon Bedrock Consol
 
-2. Name: `EnterpriseKB`
+2. On the left menu, click: Knowledge Bases → Create Knowledge Base
 
-3. Data Source: Select the S3 bucket you created in Step 1.
+3. Give it a name: `your-name-rag-knowledge`
 
-4. Embeddings Model: Choose Titan Text Embeddings v2.
+4. Data Source: Select the S3 bucket you created in Step 1.
 
-5. Vector Store: Select "Quick Create a new vector store". AWS will automatically provision Amazon OpenSearch Serverless for you.
+5. Embeddings Model: Choose Titan Text Embeddings v2.
 
-6. Click Create and wait for the status to become Active.
+6. For the vector database: Select "Quick Create a new vector store". AWS will automatically provision Amazon OpenSearch Serverless for you.
 
-7. CRITICAL: Once active, click the Sync button in the Data Source section
+This is AWS-managed option (no infrastructure, fully managed, clean and scalable).
+
+7. Click Create & Sync and wait for the status to become Active.
+
+8. Once active, click the Sync button in the Data Source section.
+
+AWS is now chunking your documents, generating embeddings, storing vectors.
 
 ## ➡️ Step 3: Update the Backend (Lambda)
 
@@ -138,15 +144,32 @@ Your Lambda role needs permission to talk to the Bedrock Agent. Attach this inli
 }
 ```
 
+## ➡️ Step 5: API + Frontend
+
+We don’t need to redesign anything here, we’ll keep the same API Gateway, we’ll keep the same frontend hosted on S3.
+The only difference is now our chatbot is knowledge-aware and enterprise-ready.
+
 ## ➡️ Step 5: Testing & UI
 
 You can use the exact same Frontend (HTML/CSS) from [Part 01](https://youtu.be/63McfqGULvA). Simply update the API Gateway URL in your `index.html` (if it changed).
 
-1. Ask: "What is the 2025 travel policy?"
+Now let’s test this, I uploaded a real Company Internal Policy document earlier.
+
+1. Ask question like: "What is the company’s data privacy policy?"
 
 2. The AI will search the PDF in S3 and provide an answer.
 
 3. Pro-Tip: If you add a new PDF to S3 and hit Sync in Bedrock, the chatbot will have that knowledge instantly!
+
+## 💼 WHY THIS MATTERS IN THE REAL WORLD
+
+Organizations are using this exact pattern today for:
+
+- Internal knowledge assistants.
+- HR helpdesk chatbots.
+- IT support assistants.
+- Compliance and policy bots.
+- Financial and insurance document assistants.
 
 ## 🗑️ Clean Up
 
