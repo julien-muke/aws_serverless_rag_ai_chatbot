@@ -57,7 +57,12 @@ In todays tech field, generic AI is "good," but Grounded AI is better. RAG solve
 
 1. Create a new S3 bucket named `your-name-kb-source`
 
-2. Upload a sample document (e.g., Company_Policy_2025.pdf, Product_docs.pdf, HR_manuals.pdf, IT_troubleshooting_guides.pdf).
+2. Upload a sample document e.g.: 
+
+- Company_Policy_2025.pdf
+- Product_docs.pdf
+- HR_manuals.pdf
+- IT_troubleshooting_guides.pdf
 
 3. Note: Ensure this bucket is in the same region as your Bedrock Knowledge Base.
 
