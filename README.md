@@ -55,7 +55,7 @@ In todays tech field, generic AI is "good," but Grounded AI is better. RAG solve
 
 ## ➡️ Step 1: Create the Knowledge Source (S3)
 
-1. Create a new S3 bucket named your-name-kb-source.
+1. Create a new S3 bucket named `your-name-kb-source`
 
 2. Upload a sample document (e.g., Company_Policy_2025.pdf).
 
@@ -65,7 +65,7 @@ In todays tech field, generic AI is "good," but Grounded AI is better. RAG solve
 
 1. Go to Amazon Bedrock > Knowledge Bases > Create Knowledge Base.
 
-2. Name: EnterpriseKB.
+2. Name: `EnterpriseKB`
 
 3. Data Source: Select the S3 bucket you created in Step 1.
 
