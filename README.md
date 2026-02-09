@@ -68,7 +68,7 @@ In todays tech field, generic AI is "good," but Grounded AI is better. RAG solve
 
 ## ➡️ Step 2: Setup Bedrock Knowledge Base
 
-1. Go to Amazon Bedrock Consol
+1. Go to Amazon Bedrock Console
 
 2. On the left menu, click: Knowledge Bases → Create Knowledge Base
 
@@ -80,13 +80,13 @@ In todays tech field, generic AI is "good," but Grounded AI is better. RAG solve
 
 6. For the vector database: Select "Quick Create a new vector store". AWS will automatically provision Amazon OpenSearch Serverless for you.
 
-This is AWS-managed option (no infrastructure, fully managed, clean and scalable).
+This is an AWS-managed option (no infrastructure, fully managed, clean and scalable).
 
 7. Click Create & Sync and wait for the status to become Active.
 
 8. Once active, click the Sync button in the Data Source section.
 
-AWS is now chunking your documents, generating embeddings, storing vectors.
+AWS is now chunking your documents, generating embeddings, and storing vectors.
 
 ## ➡️ Step 3: Update the Backend (Lambda)
 
@@ -152,6 +152,7 @@ Your Lambda role needs permission to talk to the Bedrock Agent. Attach this inli
 ## ➡️ Step 5: API + Frontend
 
 We don’t need to redesign anything here, we’ll keep the same API Gateway, we’ll keep the same frontend hosted on S3.
+
 The only difference is now our chatbot is knowledge-aware and enterprise-ready.
 
 ## ➡️ Step 6: Testing
