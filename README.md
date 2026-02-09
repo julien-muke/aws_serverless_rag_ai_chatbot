@@ -149,7 +149,7 @@ Your Lambda role needs permission to talk to the Bedrock Agent. Attach this inli
 We don’t need to redesign anything here, we’ll keep the same API Gateway, we’ll keep the same frontend hosted on S3.
 The only difference is now our chatbot is knowledge-aware and enterprise-ready.
 
-## ➡️ Step 5: Testing & UI
+## ➡️ Step 6: Testing
 
 You can use the exact same Frontend (HTML/CSS) from [Part 01](https://youtu.be/63McfqGULvA). Simply update the API Gateway URL in your `index.html` (if it changed).
 
